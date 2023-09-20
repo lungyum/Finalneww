@@ -1,0 +1,25 @@
+body {
+    font-family: Tohoma;
+    font-size: 14px;
+    background: url("image/tunna.jpg");
+}
+.contain {
+    width: 75%;
+    height: 800px;
+    margin: auto;
+    overflow: hidden;
+    background:pink;
+}
+@media screen and (min-width: 960px)
+{
+.contain { width : 90%; }
+.slidebar , content { width : 100%; }
+.nav {display : none;}
+}
+ 
+@media screen and (min-width: 480px)
+{
+.contain { width : 90%; }
+.slidebar , content { width : 100%; }
+.nav {display : none;}
+}
